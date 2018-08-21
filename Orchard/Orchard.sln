@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard.Model", "Orchard.Model\Orchard.Model.csproj", "{E6B8F136-B528-4180-941E-914713468B39}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{74E9095A-308A-43EA-AB5E-F6F9B08ABDB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard.Model.Test", "Orchard.Model.Test\Orchard.Model.Test.csproj", "{E788D63E-6B0B-40AD-93ED-7D6D7D8A3C32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{E6B8F136-B528-4180-941E-914713468B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6B8F136-B528-4180-941E-914713468B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6B8F136-B528-4180-941E-914713468B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E788D63E-6B0B-40AD-93ED-7D6D7D8A3C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E788D63E-6B0B-40AD-93ED-7D6D7D8A3C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E788D63E-6B0B-40AD-93ED-7D6D7D8A3C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E788D63E-6B0B-40AD-93ED-7D6D7D8A3C32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E788D63E-6B0B-40AD-93ED-7D6D7D8A3C32} = {74E9095A-308A-43EA-AB5E-F6F9B08ABDB8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73A3C97F-ED80-425B-96D2-E87BE3B76944}
