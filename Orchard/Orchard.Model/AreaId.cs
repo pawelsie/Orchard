@@ -1,6 +1,9 @@
-﻿namespace Orchard.Model
+﻿namespace Orchard.Domain
 {
-    public class AreaId
+    public class AreaId : AggregateId
     {
+        public AreaId(int id) : base(id)
+        {
+        }
     }
 }

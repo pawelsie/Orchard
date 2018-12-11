@@ -1,6 +1,9 @@
-﻿namespace Orchard.Model
+﻿namespace Orchard.Domain
 {
-    public class PlantId
+    public class PlantId: AggregateId
     {
+        public PlantId(int id) : base(id)
+        {
+        }
     }
 }

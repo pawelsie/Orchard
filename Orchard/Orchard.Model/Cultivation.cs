@@ -1,14 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Orchard.Model
+namespace Orchard.Domain
 {
     /// <summary>
     /// Uprawa
     /// </summary>
     public class Cultivation
     {
+
+
+        public Cultivation(AreaId areaId, DateTime startTime, PlantId plantID)
+        {
+        }
+
         
     }
 
